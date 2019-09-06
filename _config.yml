@@ -2,8 +2,8 @@
 permalink:           pretty
 
 # Setup
-title:               Z.W. Miller
-tagline:             A Moderately Okay Data Science Blog
+title:               Sarah Alqabbaa
+tagline:             A Data Science Blog
 url:                 http://Sarahalq.github.io
 paginate:            2
 baseurl:             ""
@@ -17,9 +17,8 @@ sass:
 
 # About/contact
 author:
-  name:              Zach Miller
-  url:               https://twitter.com/zaglamir
-  email:             zach@thisismetis.com
+  name:              Sarah Alqabbaa
+  email:             Saalqabbaa@gmail.com
 
 # Custom vars
 version:             2.0.0
