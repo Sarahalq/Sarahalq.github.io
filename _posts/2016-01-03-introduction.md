@@ -1,13 +1,18 @@
 ---
 layout: post
-title: Introduction
+title: Project Design
 ---
 
-*The Strange Case of Dr. Jekyll and Mr. Hyde* tells the story of a lawyer investigating the connection of two persons, Dr. Henry Jekyll and Mr. Edward Hyde. Chief among the novel's supporting cast is a man by the name of Mr. Poole, Dr. Jekyll's loyal butler.
+In order to create a strategy for the street team, we needed to use the MTA turnstile data to find the top stations with the highest traffic record, the dates with the most number of riders for each station and locating stations that are near tech companies.
 
 -----
+---
+layout: post
+title: Data Acquisition:
+---
+The data we used for this project is the MTA turnstile data which can be downloaded freely from their website [Here]({{http://web.mta.info/developers/turnstile.html}}).
+We wanted our data to be relevant to the date of the event. Thus, we chose to explore the data from the month of May 2019, as the gala is planned to take place in the beginning of summer
 
-Poole is the butler for [Jekyll](http://jekyllrb.com), the static site generator. It's designed and developed by [@mdo](https://twitter.com/mdo) to provide a clear and concise foundational setup for any Jekyll site. It does so by furnishing a full vanilla Jekyll install with example layouts, pages, posts, and styles.
 
 There are currently three themes built on Poole:
 

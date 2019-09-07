@@ -24,7 +24,6 @@ Problem statement:
 
 [This is a link](http://thisismetis.com)
 
-![Image test]({{ site.url }}/images/AlanLeeShireGandalf.JPG)
 
 ### Other things
 * Like
