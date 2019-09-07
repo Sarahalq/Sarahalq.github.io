@@ -42,9 +42,9 @@ We began by looking at our dataset and **dropping out unnecessary column** that 
 After cleaning our data, we visualized the results using matplotlib and seaborn.
 To analyze the data and conclude recommendation for WomenTechWomenYes we used the below bar graphs.
 
-![Image test]({{ site.url }}/images/Station.jpg)
+![Image test]({{ site.url }}/images/Station.png)
 
-![Image test]({{ site.url }}/images/Month.jpg)
+![Image test]({{ site.url }}/images/Month.png)
 
 
 
