@@ -44,15 +44,31 @@ To analyze the data and conclude recommendation for WomenTechWomenYes we used th
 
 ![Image test]({{ site.url }}/images/Station.png)
 
+The above graph shows the top 20 stations in NYC for the month of May 2019.
+
 ![Image test]({{ site.url }}/images/Month.png)
 
-
+The above graph shows the traffic per day for the month of May 2019 in our top station "".
 
 The results above help us to know what are the stations we should send our street team too and in what days. In order to get the most signatures, we believe that we should target the most crowded stations and to make sure that we are talking to the right people we should target the top stations that are near tech companies to meet our target audience.
 
 
-### Other things
-* Like
-* lists
-* and
-* stuff
+### Recommendations
+For WomenTechWomenYes annual gala, we would recommend distributing their street team on **34 ST-PEEN STA, GRD CNTRL-42 ST, 23 ST and TIMES SQ-42 ST** during workdays.
+
+
+### Future Work
+
+* Automate the process of locating the nearest stations to tech companies.
+* Explore a larger scope from our data
+* Determine the exact hours of the day where station are crowded the most.  
+
+
+
+### Tools used for this project
+
+# Python
+we used python packages to clean and analyze the data specifically pandas to clean and preprocess, matplotlib and seaborn to visualize it.
+
+# Git and Github
+we used Git for coordinating work among us.
