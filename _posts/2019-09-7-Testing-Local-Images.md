@@ -63,7 +63,7 @@ The above graph shows the traffic per day for the month of May 2019 in our top s
 
 ![Image test]({{ site.url }}/images/map.png)
 
-The above map shows NYC tech companies marked in black and 4 of our top 4 subway stations marked in purple.
+The above map shows NYC tech companies marked in black and 4 of our top subway stations marked in purple.
 
 The results above help us to know what are the stations we should send our street team too and in what days. In order to get the most signatures, we believe that we should target the most crowded stations and to make sure that we are talking to the right people we should target the top stations that are near tech companies to meet our target audience.
 
