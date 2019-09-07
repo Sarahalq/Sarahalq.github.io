@@ -1,16 +1,14 @@
 
----
 
 ###Project Design
 
 In order to create a strategy for the street team, we needed to use the MTA turnstile data to find the top stations with the highest traffic record, the dates with the most number of riders for each station and locating stations that are near tech companies.
 
------
 
 ### Data Acquisition
 
 The data we used for this project is the MTA turnstile data which can be downloaded freely from their website [Here]({{http://web.mta.info/developers/turnstile.html}}).
-We wanted our data to be relevant to the date of the event. Thus, we chose to explore the data from the month of May 2019, as the gala is planned to take place in the beginning of summer
+We wanted our data to be relevant to the date of the event. Thus, we chose to explore the data from the month of May 2019, as the gala is planned to take place in the beginning of summer.
 
 ### Data cleaning
 In order to get a more accurate results we had to clean and preprocess the dataset.
