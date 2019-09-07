@@ -42,7 +42,7 @@ We began by looking at our dataset and **dropping out unnecessary column** that 
 After cleaning our data, we visualized the results using matplotlib and seaborn.
 To analyze the data and conclude recommendation for WomenTechWomenYes we used the below bar graphs.
 
- <center><![Image test]({{ site.url }}/images/Unknown.png)></center>
+![Image test]({{ site.url }}/images/Unknown.png)
 
 The above graph shows the top 20 stations in NYC for the month of May 2019.
 
@@ -65,7 +65,7 @@ For WomenTechWomenYes annual gala, we would recommend distributing their street
 
 
 
-*### Tools used for this project*
+### Tools used for this project
 
 #### Python
 we used python packages to clean and analyze the data specifically pandas to clean and preprocess, matplotlib and seaborn to visualize it.
