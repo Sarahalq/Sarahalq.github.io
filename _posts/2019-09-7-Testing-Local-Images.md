@@ -42,7 +42,7 @@ We began by looking at our dataset and **dropping out unnecessary column** that 
 After cleaning our data, we visualized the results using matplotlib and seaborn.
 To analyze the data and conclude recommendation for WomenTechWomenYes we used the below bar graphs.
 
-![Image test]({{ site.url }}/images/Unknown.png)
+ <center>![Image test]({{ site.url }}/images/Unknown.png)</center>
 
 The above graph shows the top 20 stations in NYC for the month of May 2019.
 
