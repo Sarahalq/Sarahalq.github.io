@@ -7,15 +7,21 @@ Finding the top 10 stations in NYC with the highest traffic record.
 
 ![Image test]({{ site.url }}/images/pic.jpg)
 
-
+### Project request 
 ```
 ---
-WomenTechWomenYes (WTWY) has an annual gala at the beginning of the summer each year. As we are new and inclusive organization, we try to do double duty with the gala both to fill our event space with individuals passionate about increasing the participation of women in technology, and to concurrently build awareness and reach.
-To this end we place street teams at entrances to subway stations. The street teams collect email addresses and those who sign up are sent free tickets to our gala.
-Where we’d like to solicit your engagement is to use MTA subway data, which as I’m sure you know is available freely from the city, to help us optimize the placement of our street teams, such that we can gather the most signatures, ideally from those who will attend the gala and contribute to our cause.
-The ball is in your court now—do you think this is something that would be feasible for your group? From there we can explore what kind of an engagement would make sense for all of us.
-Best,
-Karrine and Dahlia
+WomenTechWomenYes (WTWY) has an annual gala at the beginning of
+the summer each year. As we are new and inclusive organization,
+we try to do double duty with the gala both to fill our event
+space with individuals passionate about increasing the
+participation of women in technology, and to concurrently
+build awareness and reach. To this end we place street teams
+at entrances to subway stations. The street teams collect email
+addresses and those who sign up are sent free tickets to our gala.
+Where we’d like to solicit your engagement is to use MTA subway data,
+to help us optimize the placement of our street teams, such that we can
+gather the most signatures, ideally from those who will attend the gala and
+contribute to our cause.
 ---
 ```
 
@@ -53,6 +59,9 @@ The above graph shows the top 20 stations in NYC for the month of May 2019.
 ![Image test]({{ site.url }}/images/Unknown-1.png)
 
 The above graph shows the traffic per day for the month of May 2019 in our top station "34 ST-PEEN STA".
+
+
+![Image test]({{ site.url }}/images/map.png)
 
 The results above help us to know what are the stations we should send our street team too and in what days. In order to get the most signatures, we believe that we should target the most crowded stations and to make sure that we are talking to the right people we should target the top stations that are near tech companies to meet our target audience.
 
