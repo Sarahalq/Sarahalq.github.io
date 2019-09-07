@@ -7,7 +7,7 @@ Finding the top 10 stations in NYC with the highest traffic record.
 
 ![Image test]({{ site.url }}/images/pic.jpg)
 
-### Project request 
+### Project request
 ```
 ---
 WomenTechWomenYes (WTWY) has an annual gala at the beginning of
@@ -18,10 +18,10 @@ participation of women in technology, and to concurrently
 build awareness and reach. To this end we place street teams
 at entrances to subway stations. The street teams collect email
 addresses and those who sign up are sent free tickets to our gala.
-Where we’d like to solicit your engagement is to use MTA subway data,
-to help us optimize the placement of our street teams, such that we can
-gather the most signatures, ideally from those who will attend the gala and
-contribute to our cause.
+Where we’d like to solicit your engagement is to use MTA subway
+data,to help us optimize the placement of our street teams, such
+that we can gather the most signatures, ideally from those who will
+attend the gala and contribute to our cause.
 ---
 ```
 
@@ -62,6 +62,8 @@ The above graph shows the traffic per day for the month of May 2019 in our top s
 
 
 ![Image test]({{ site.url }}/images/map.png)
+
+The above map shows NYC tech companies marked in black and 4 of our top 4 subway stations marked in purple.
 
 The results above help us to know what are the stations we should send our street team too and in what days. In order to get the most signatures, we believe that we should target the most crowded stations and to make sure that we are talking to the right people we should target the top stations that are near tech companies to meet our target audience.
 
