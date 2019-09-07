@@ -67,8 +67,8 @@ For WomenTechWomenYes annual gala, we would recommend distributing their street
 
 ### Tools used for this project
 
-# Python
+#### Python
 we used python packages to clean and analyze the data specifically pandas to clean and preprocess, matplotlib and seaborn to visualize it.
 
-# Git and Github
+#### Git and Github
 we used Git for coordinating work among us.
