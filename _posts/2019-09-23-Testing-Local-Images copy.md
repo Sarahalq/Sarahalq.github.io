@@ -1,11 +1,11 @@
 ---
 layout: post
-title: predicting book prices
+title: Predicting book prices
 ---
 
 Predicting book prices using linear regression model.
 
-![Image test]({{ site.url }}/images/book.jpg)
+![Image test]({{ site.url }}/images/book.JPG)
 
 
 ### Project objective
