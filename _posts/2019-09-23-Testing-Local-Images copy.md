@@ -8,9 +8,6 @@ Predicting book prices using linear regression model.
 ![Image test]({{ site.url }}/images/book.JPG)
 
 
-### Project objective
-Maximize the WomenTechWomenYes annual gala attendance and contribution.
-
 ### Dataset
 Data was scrapped from the Book Depository website using Beautiful Soup. Which is a python package that is used for scrapping html and xml files. [Book Depository] ({{https://www.bookdepository.com/bestsellers}}) is an online book store with over 20 million books. My data set contained 1020 book from the bestseller page with 13 different attributes. These attributes are the book author name, genre, publisher name, cover (paperback or hardback), date of publication, number of pages, average rating, number of reviews, rank on the bestseller list and price.
 
@@ -50,18 +47,7 @@ When the linear regression model was performed on the trained dataset:
 When the linear regression model was performed on the test dataset:
 ![Image test]({{ site.url }}/images/test.png)
 
-### Future Work
-
-* Automate the process of locating the nearest stations to tech companies.
-* Explore a larger scope from our data
-* Determine the exact hours of the day where station are crowded the most.  
-
-
-
-### Tools used for this project
-
-#### Python
-we used python packages to clean and analyze the data specifically pandas to clean and preprocess, matplotlib and seaborn to visualize it.
-
-#### Git and Github
-we used Git for coordinating work among us.
+### Conclusion
+In conclusion, my data don't fit a linear regression model as the r^2 indicated above.
+There were no correlation between the target and the features. However, trying another model or increase the
+dataset to include more books not just the bestsellers.
