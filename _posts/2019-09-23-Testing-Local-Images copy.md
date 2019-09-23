@@ -9,7 +9,7 @@ Predicting book prices using linear regression model.
 
 
 ### Dataset
-Data was scrapped from the Book Depository website using Beautiful Soup. Which is a python package that is used for scrapping html and xml files. [Book Depository] ({{https://www.bookdepository.com/bestsellers.html}}) is an online book store with over 20 million books. My data set contained 1020 book from the bestseller page with 13 different attributes. These attributes are the book author name, genre, publisher name, cover (paperback or hardback), date of publication, number of pages, average rating, number of reviews, rank on the bestseller list and price.
+Data was scrapped from the Book Depository website using Beautiful Soup. Which is a python package that is used for scrapping html and xml files.[Book Depository]({{https://www.bookdepository.com/bestsellers.html}}) is an online book store with over 20 million books. My data set contained 1020 book from the bestseller page with 13 different attributes. These attributes are the book author name, genre, publisher name, cover (paperback or hardback), date of publication, number of pages, average rating, number of reviews, rank on the bestseller list and price.
 
 
 ### Data cleaning
