@@ -23,7 +23,9 @@ This dataset includes descriptions of hypothetical samples corresponding to 23 s
 Downloaded from: [Here]({{https://www.kaggle.com/uciml/mushroom-classification}}).
 
 Time period: Donated to UCI ML 27 April 1987
+
 Donated by: Jeff Schlimmer
+
 License: CC0: Public Domain
 
 ##### Dataset Attribute Information:
@@ -134,12 +136,22 @@ as you can see most of the feature were from the odor category.
 ### Model Evaluation
 
 
-#### Classification Metric
+#### Confusion Metric
+
 
 ![Image test]({{ site.url }}/images/confusion_matrix.png)
 
 from the classification above we can see that the model was performing well. I was mostly concerned about the false negative section.
 This model have a lower number of false negative than false positive which is what I were hoping for.
+
+
+#### ROC
+
+![Image test]({{ site.url }}/images/roc.png)
+
+The graph above shows how good the model is preforming regarding the true and false positive.
+Area under the curve =  0.9854579048208978
+Model Performance: Excellent model
 
 
 ### Tools used for this project
