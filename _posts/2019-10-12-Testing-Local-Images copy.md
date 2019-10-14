@@ -21,6 +21,7 @@ whether a mushroom is edible or poisonous.
 This dataset includes descriptions of hypothetical samples corresponding to 23 species of gilled mushrooms in the Agaricus and Lepiota Family Mushroom drawn from The Audubon Society Field Guide to North American Mushrooms (1981). Each species is identified as edible or poisonous.
 
 Downloaded from: [Here]({{https://www.kaggle.com/uciml/mushroom-classification}}).
+
 Time period: Donated to UCI ML 27 April 1987
 Donated by: Jeff Schlimmer
 License: CC0: Public Domain
@@ -54,14 +55,16 @@ License: CC0: Public Domain
 ![Image test]({{ site.url }}/images/cap_shape.jpeg)
 
 
+
 ### Data cleaning
 The dataset was mostly clean with no null-values. However, after exploring the dataset I decided to:
 
 1. Drop the veil-type column as all of the rows in that column had only one value and that will not add to the model learning process.
-2. Plot the stalk-root column distribution with each feature one with the missing value and once without.
+2. Plot the stalk-root column distribution with each feature once with the missing value and once without.
 ![Image test]({{ site.url }}/images/stalk.png)
 
 as shown above, the missing value in stalk-root column represent a lot of the datapoint thus, I will keep it in the dataset as removing them may effect the learning of the model.
+
 
 
 ### Exploratory Data Analysis
@@ -84,6 +87,7 @@ The graph below, shows the mushroom odor distribution compared to the class.
 The graph below, shows the gill-size categories percentage.
 
 ![Image test]({{ site.url }}/images/gill_size.png)
+
 
 
 
@@ -123,6 +127,7 @@ as you can see most of the feature were from the odor category.
 7. Final model
 
 ![Image test]({{ site.url }}/images/final_score.png)
+
 
 
 
