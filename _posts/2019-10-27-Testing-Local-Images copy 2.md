@@ -5,7 +5,7 @@ title: News Clustering
 
 Can we predict the category of a news article by its headline?
 
-![Image test]({{ site.url }}/images/breaking_news.png)
+![Image test]({{ site.url }}/images/breaking_news1.png)
 
 
 
