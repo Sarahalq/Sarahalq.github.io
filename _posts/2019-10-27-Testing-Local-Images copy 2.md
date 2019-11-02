@@ -26,6 +26,7 @@ Downloaded from: [Here]({{https://www.kaggle.com/uciml/news-aggregator-dataset}}
 * TIMESTAMP : approximate timestamp of the article's publication, given in Unix time (seconds since midnight on Jan 1, 1970)
 
 
+
 ### Data cleaning
 
 1. In order to preform unsupervised learning (Clustering) on the data I dropped all
@@ -40,6 +41,7 @@ columns except the TITLE.
   * Performing lemmatization
 
   This is an example of how the cleaning process was applied to the headlines:
+
   ![Image test]({{ site.url }}/images/cleaning1.png)
 
 
@@ -55,10 +57,15 @@ occurrence of each word is used as a feature.
 
 ### Topic Modeling & Clustering
 
-
 In order to find the best number of cluster for my data I used one of
 the popular measures the Elbow method:
+
 ![Image test]({{ site.url }}/images/elbow.png)
+
+I used a dimensionality reduction technique called NMF (Non-Negative Matrix Factorization)
+to partition my titles into 4 topics. NMF allows us to reduce the dimensions of our matrix
+by going from a word-space to a topic-space. In this situation, we compress
+a 18,000 element long word-space into a 4 element long topic-space.
 
 Here are the top 10 most important words for each of the 4 topics:
 ![Image test]({{ site.url }}/images/topics.png)
@@ -67,7 +74,13 @@ For example, topic 1 had words such as global, warming, climate and panel which
 usually come together.
 
 
+Let’s use UMAP to visualize how the titles fall into different topics:
+
+![Image test]({{ site.url }}/images/clustering.png)
+
+The clustering above, shows a lot of overlap between titles. 
+
 ### Tools used for this project
 
 #### Python
-Pandas and numpy to clean and preprocess, matplotlib and seaborn to visualize it, and sklearn for modeling
+Pandas, nltk, and spacy to clean and preprocess, matplotlib and UMAP to visualize it, and sklearn for modeling
